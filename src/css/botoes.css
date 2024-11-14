@@ -1,0 +1,45 @@
+
+  
+  
+  /* Garantir que a lista de botões não tenha estilização de lista */
+.botoes {
+    
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Usamos flexbox para alinhar os itens no centro */
+    justify-content: center; /* Centraliza o botão horizontalmente */
+    align-items: center; /* Alinha o botão no centro verticalmente */
+    height: 100vh; /* Faz o botão ficar no meio da tela verticalmente */
+    position: center;
+}
+
+/* Estilo do botão */
+button {
+    cursor: pointer;
+    border: none;
+    background: transparent;
+    padding: 0;
+    cursor: pointer;
+    outline: none;
+    display: inline-block; 
+}
+
+/* Estilo da imagem dentro do botão */
+button img {
+    
+    width: 300px; /* Tamanho da imagem, ajuste conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+    display: block; /* Remove o espaço abaixo da imagem */
+    object-fit: contain; 
+}
+
+button:hover {
+    border-bottom: solid #d4d4d4;
+    transform: scale(0.95); /* Diminui o botão quando pressionado */
+    transition: transform 0.1s ease;
+    
+}
+
+
+

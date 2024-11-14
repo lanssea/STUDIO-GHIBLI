@@ -1,0 +1,126 @@
+/*/
+  
+   NÃO APAGUE ISSO PELO AMOR
+ 
+    .filmes {
+        margin: auto;
+        width: 319.3px;
+        height: 281.6px;
+        border-radius: 61px;
+        position: column;
+        margin: 30px;
+        transition: width 0.5s ease, height 0.5s ease;  
+    }        
+    
+    .filmes:hover {
+            width: 1259px; 
+            height: 319.3px; 
+    }
+
+    } /*/
+
+ 
+   
+    .filmes {
+        margin: auto;
+         width:1259px;
+         height: 319.3px;  
+         border-radius: 61px;
+         position: column;
+         margin: 30px;
+         overflow: hidden;
+               
+     }
+
+     .filmes img{
+   
+        max-width: 100%;        
+     }
+    
+    .poster:hover {
+        transform: scale(1.1);  /* Aumenta a imagem para 110% do seu tamanho original */
+    }
+    
+        
+    .poster {
+        transition: transform 0.3s ease;
+        width: 198.9px;
+        height: 258.9px;
+        border-radius: 28px;
+        position: absolute; 
+        margin: 30px;
+        
+    }
+
+
+      
+    
+   
+  .informacoes {
+   padding: 20px;
+   gap: 20px;
+   position: absolute;
+   top: 0; 
+   right: 0;
+   display: flex; 
+  }
+  
+   
+  
+  .layout { 
+
+    margin-left: 10px;
+    display: flex;    
+    height: 100px;
+    width: 167px;
+    align-items: center;    
+}
+.layout2{
+        
+   
+    position: relative;     
+            bottom: 20px;  
+            left: 50%;    
+            transform: translateX(-50%);
+            width: 100px;  
+            height: auto;   
+        
+}
+
+.layout2:hover {
+     cursor: pointer;
+
+}
+
+
+
+.texto{
+    color: #f4f4f4;
+    font-size: 16px;
+    font-family: "open sans";
+    background-color: transparent;
+    position: absolute;
+    left: 270px;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 301.4px;
+   
+}
+
+.texto2{
+    color: #f4f4f4;
+    background-color: transparent;
+    font-size: 30px;
+    font-family: "open sans";
+    position: absolute;
+    padding-top: 40px;
+    left: 270px;
+    display: flex;
+    justify-content: center;
+    width: 320px;
+    white-space: nowrap;
+    
+}
+
